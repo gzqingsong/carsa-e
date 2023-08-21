@@ -1,0 +1,12 @@
+server:
+  port: 8091
+spring:
+  datasource:
+    username: root
+    password: gzou
+    url: jdbc:mysql://localhost:3306/carsale?useUnicode=true&characterEncoding=utf-8
+    #driver-class-name: com.mysql.jdbc.Driver 这个驱动已经被弃用
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mappers/*.xml
+  type-aliases-package: com.gxyan.pojo
