@@ -1,7 +1,5 @@
 server:
   port: 8091
-  servlet:
-    context-path: /seal
 spring:
   application:
     name: seal-login-service
